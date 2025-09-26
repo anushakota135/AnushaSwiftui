@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		12D8C95F2E8711E400C6FBAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12D8C9462E8711E200C6FBAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12D8C94D2E8711E200C6FBAE;
+			remoteInfo = AsteroidExplo;
+		};
+		12D8C9692E8711E400C6FBAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12D8C9462E8711E200C6FBAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12D8C94D2E8711E200C6FBAE;
+			remoteInfo = AsteroidExplo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12D8C94E2E8711E200C6FBAE /* AsteroidExplo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsteroidExplo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D8C95E2E8711E400C6FBAE /* AsteroidExploTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsteroidExploTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D8C9682E8711E400C6FBAE /* AsteroidExploUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsteroidExploUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		12D8C9502E8711E200C6FBAE /* AsteroidExplo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AsteroidExplo;
+			sourceTree = "<group>";
+		};
+		12D8C9612E8711E400C6FBAE /* AsteroidExploTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AsteroidExploTests;
+			sourceTree = "<group>";
+		};
+		12D8C96B2E8711E400C6FBAE /* AsteroidExploUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AsteroidExploUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12D8C94B2E8711E200C6FBAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D8C95B2E8711E400C6FBAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D8C9652E8711E400C6FBAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12D8C9452E8711E200C6FBAE = {
+			isa = PBXGroup;
+			children = (
+				12D8C9502E8711E200C6FBAE /* AsteroidExplo */,
+				12D8C9612E8711E400C6FBAE /* AsteroidExploTests */,
+				12D8C96B2E8711E400C6FBAE /* AsteroidExploUITests */,
+				12D8C94F2E8711E200C6FBAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12D8C94F2E8711E200C6FBAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12D8C94E2E8711E200C6FBAE /* AsteroidExplo.app */,
+				12D8C95E2E8711E400C6FBAE /* AsteroidExploTests.xctest */,
+				12D8C9682E8711E400C6FBAE /* AsteroidExploUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12D8C94D2E8711E200C6FBAE /* AsteroidExplo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12D8C9722E8711E400C6FBAE /* Build configuration list for PBXNativeTarget "AsteroidExplo" */;
+			buildPhases = (
+				12D8C94A2E8711E200C6FBAE /* Sources */,
+				12D8C94B2E8711E200C6FBAE /* Frameworks */,
+				12D8C94C2E8711E200C6FBAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				12D8C9502E8711E200C6FBAE /* AsteroidExplo */,
+			);
+			name = AsteroidExplo;
+			packageProductDependencies = (
+			);
+			productName = AsteroidExplo;
+			productReference = 12D8C94E2E8711E200C6FBAE /* AsteroidExplo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12D8C95D2E8711E400C6FBAE /* AsteroidExploTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12D8C9752E8711E400C6FBAE /* Build configuration list for PBXNativeTarget "AsteroidExploTests" */;
+			buildPhases = (
+				12D8C95A2E8711E400C6FBAE /* Sources */,
+				12D8C95B2E8711E400C6FBAE /* Frameworks */,
+				12D8C95C2E8711E400C6FBAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12D8C9602E8711E400C6FBAE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				12D8C9612E8711E400C6FBAE /* AsteroidExploTests */,
+			);
+			name = AsteroidExploTests;
+			packageProductDependencies = (
+			);
+			productName = AsteroidExploTests;
+			productReference = 12D8C95E2E8711E400C6FBAE /* AsteroidExploTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12D8C9672E8711E400C6FBAE /* AsteroidExploUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12D8C9782E8711E400C6FBAE /* Build configuration list for PBXNativeTarget "AsteroidExploUITests" */;
+			buildPhases = (
+				12D8C9642E8711E400C6FBAE /* Sources */,
+				12D8C9652E8711E400C6FBAE /* Frameworks */,
+				12D8C9662E8711E400C6FBAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12D8C96A2E8711E400C6FBAE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				12D8C96B2E8711E400C6FBAE /* AsteroidExploUITests */,
+			);
+			name = AsteroidExploUITests;
+			packageProductDependencies = (
+			);
+			productName = AsteroidExploUITests;
+			productReference = 12D8C9682E8711E400C6FBAE /* AsteroidExploUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12D8C9462E8711E200C6FBAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					12D8C94D2E8711E200C6FBAE = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					12D8C95D2E8711E400C6FBAE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 12D8C94D2E8711E200C6FBAE;
+					};
+					12D8C9672E8711E400C6FBAE = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 12D8C94D2E8711E200C6FBAE;
+					};
+				};
+			};
+			buildConfigurationList = 12D8C9492E8711E200C6FBAE /* Build configuration list for PBXProject "AsteroidExplo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12D8C9452E8711E200C6FBAE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 12D8C94F2E8711E200C6FBAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12D8C94D2E8711E200C6FBAE /* AsteroidExplo */,
+				12D8C95D2E8711E400C6FBAE /* AsteroidExploTests */,
+				12D8C9672E8711E400C6FBAE /* AsteroidExploUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12D8C94C2E8711E200C6FBAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D8C95C2E8711E400C6FBAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D8C9662E8711E400C6FBAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12D8C94A2E8711E200C6FBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D8C95A2E8711E400C6FBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D8C9642E8711E400C6FBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12D8C9602E8711E400C6FBAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12D8C94D2E8711E200C6FBAE /* AsteroidExplo */;
+			targetProxy = 12D8C95F2E8711E400C6FBAE /* PBXContainerItemProxy */;
+		};
+		12D8C96A2E8711E400C6FBAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12D8C94D2E8711E200C6FBAE /* AsteroidExplo */;
+			targetProxy = 12D8C9692E8711E400C6FBAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12D8C9702E8711E400C6FBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12D8C9712E8711E400C6FBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12D8C9732E8711E400C6FBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AsteroidExplo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.AsteroidExplo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12D8C9742E8711E400C6FBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AsteroidExplo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.AsteroidExplo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12D8C9762E8711E400C6FBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.AsteroidExploTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsteroidExplo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AsteroidExplo";
+			};
+			name = Debug;
+		};
+		12D8C9772E8711E400C6FBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.AsteroidExploTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsteroidExplo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AsteroidExplo";
+			};
+			name = Release;
+		};
+		12D8C9792E8711E400C6FBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.AsteroidExploUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AsteroidExplo;
+			};
+			name = Debug;
+		};
+		12D8C97A2E8711E400C6FBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.AsteroidExploUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AsteroidExplo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12D8C9492E8711E200C6FBAE /* Build configuration list for PBXProject "AsteroidExplo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12D8C9702E8711E400C6FBAE /* Debug */,
+				12D8C9712E8711E400C6FBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12D8C9722E8711E400C6FBAE /* Build configuration list for PBXNativeTarget "AsteroidExplo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12D8C9732E8711E400C6FBAE /* Debug */,
+				12D8C9742E8711E400C6FBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12D8C9752E8711E400C6FBAE /* Build configuration list for PBXNativeTarget "AsteroidExploTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12D8C9762E8711E400C6FBAE /* Debug */,
+				12D8C9772E8711E400C6FBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12D8C9782E8711E400C6FBAE /* Build configuration list for PBXNativeTarget "AsteroidExploUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12D8C9792E8711E400C6FBAE /* Debug */,
+				12D8C97A2E8711E400C6FBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12D8C9462E8711E200C6FBAE /* Project object */;
+}
