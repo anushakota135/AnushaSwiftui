@@ -6,6 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		12C4C01B2E9038C2005C7EDC /* HazardousAsteroid.png in Resources */ = {isa = PBXBuildFile; fileRef = 12C4C0192E9038C2005C7EDC /* HazardousAsteroid.png */; };
+		12C4C01C2E9038C2005C7EDC /* AsteroidList.png in Resources */ = {isa = PBXBuildFile; fileRef = 12C4C0182E9038C2005C7EDC /* AsteroidList.png */; };
+		12C4C01D2E9038C2005C7EDC /* SafeAsteroidDetail.png in Resources */ = {isa = PBXBuildFile; fileRef = 12C4C01A2E9038C2005C7EDC /* SafeAsteroidDetail.png */; };
+		12C4C01E2E9038C2005C7EDC /* HazardousAsteroid.png in Resources */ = {isa = PBXBuildFile; fileRef = 12C4C0192E9038C2005C7EDC /* HazardousAsteroid.png */; };
+		12C4C01F2E9038C2005C7EDC /* AsteroidList.png in Resources */ = {isa = PBXBuildFile; fileRef = 12C4C0182E9038C2005C7EDC /* AsteroidList.png */; };
+		12C4C0202E9038C2005C7EDC /* SafeAsteroidDetail.png in Resources */ = {isa = PBXBuildFile; fileRef = 12C4C01A2E9038C2005C7EDC /* SafeAsteroidDetail.png */; };
+		12C4C0212E9038C2005C7EDC /* HazardousAsteroid.png in Resources */ = {isa = PBXBuildFile; fileRef = 12C4C0192E9038C2005C7EDC /* HazardousAsteroid.png */; };
+		12C4C0222E9038C2005C7EDC /* AsteroidList.png in Resources */ = {isa = PBXBuildFile; fileRef = 12C4C0182E9038C2005C7EDC /* AsteroidList.png */; };
+		12C4C0232E9038C2005C7EDC /* SafeAsteroidDetail.png in Resources */ = {isa = PBXBuildFile; fileRef = 12C4C01A2E9038C2005C7EDC /* SafeAsteroidDetail.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		12D8C95F2E8711E400C6FBAE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12C4C0182E9038C2005C7EDC /* AsteroidList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AsteroidList.png; sourceTree = "<group>"; };
+		12C4C0192E9038C2005C7EDC /* HazardousAsteroid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HazardousAsteroid.png; sourceTree = "<group>"; };
+		12C4C01A2E9038C2005C7EDC /* SafeAsteroidDetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SafeAsteroidDetail.png; sourceTree = "<group>"; };
 		12D8C94E2E8711E200C6FBAE /* AsteroidExplo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsteroidExplo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D8C95E2E8711E400C6FBAE /* AsteroidExploTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsteroidExploTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D8C9682E8711E400C6FBAE /* AsteroidExploUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsteroidExploUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,9 +87,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12C4C0172E90375C005C7EDC /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				12C4C0182E9038C2005C7EDC /* AsteroidList.png */,
+				12C4C0192E9038C2005C7EDC /* HazardousAsteroid.png */,
+				12C4C01A2E9038C2005C7EDC /* SafeAsteroidDetail.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		12D8C9452E8711E200C6FBAE = {
 			isa = PBXGroup;
 			children = (
+				12C4C0172E90375C005C7EDC /* Screenshots */,
 				12D8C9502E8711E200C6FBAE /* AsteroidExplo */,
 				12D8C9612E8711E400C6FBAE /* AsteroidExploTests */,
 				12D8C96B2E8711E400C6FBAE /* AsteroidExploUITests */,
@@ -212,6 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12C4C01E2E9038C2005C7EDC /* HazardousAsteroid.png in Resources */,
+				12C4C01F2E9038C2005C7EDC /* AsteroidList.png in Resources */,
+				12C4C0202E9038C2005C7EDC /* SafeAsteroidDetail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +248,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12C4C01B2E9038C2005C7EDC /* HazardousAsteroid.png in Resources */,
+				12C4C01C2E9038C2005C7EDC /* AsteroidList.png in Resources */,
+				12C4C01D2E9038C2005C7EDC /* SafeAsteroidDetail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +258,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12C4C0212E9038C2005C7EDC /* HazardousAsteroid.png in Resources */,
+				12C4C0222E9038C2005C7EDC /* AsteroidList.png in Resources */,
+				12C4C0232E9038C2005C7EDC /* SafeAsteroidDetail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
