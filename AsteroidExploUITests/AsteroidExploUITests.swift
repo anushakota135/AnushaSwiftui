@@ -4,7 +4,6 @@
 //
 //  Created by user260596 on 9/27/25.
 //
-
 import XCTest
 
 final class AsteroidExploUITests: XCTestCase {
@@ -30,7 +29,21 @@ final class AsteroidExploUITests: XCTestCase {
 
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
-
+    
+    func testTapAsteroidRowShowsDetail() {
+        let app = XCUIApplication()
+        let scrollView = app.scrollViews.firstMatch
+            
+            // Tap the first row
+            let firstRow = scrollView.children(matching: .other).element(boundBy: 0)
+            XCTAssertTrue(firstRow.exists, "First asteroid row should exist")
+            firstRow.tap()
+            
+            // Wait for the detail screen to appear
+            let detailText = app.staticTexts.firstMatch
+            XCTAssertTrue(detailText.waitForExistence(timeout: 5), "Detail screen should appear after tapping row")
+        }
+    
     @MainActor
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {

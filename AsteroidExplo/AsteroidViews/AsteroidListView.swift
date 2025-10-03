@@ -9,24 +9,32 @@ import SwiftUI
 
 struct AsteroidListView: View {
     @StateObject private var viewModel = AsteroidViewModel()
-    
+
     var body: some View {
         NavigationView {
             Group {
                 if viewModel.isLoading {
                     ProgressView("Loading Asteroids…")
+                        .accessibilityIdentifier("LoadingIndicator")
+                        .progressViewStyle(CircularProgressViewStyle(tint: .blue))
+                        .scaleEffect(1.5)
                 } else if let error = viewModel.errorMessage {
                     Text("Error: \(error)")
+                        .foregroundColor(.red)
+                        .multilineTextAlignment(.center)
+                        .padding()
                 } else {
-                    List(viewModel.asteroids) { asteroid in
-                        NavigationLink(destination: AsteroidDetailView(asteroid: asteroid)) {
-                            VStack(alignment: .leading) {
-                                Text(asteroid.name)
-                                    .font(.headline)
-                                Text("Magnitude: \(asteroid.absoluteMagnitude, specifier: "%.2f")")
-                                    .font(.subheadline)
+                    ScrollView {
+                        LazyVStack(spacing: 15) {
+                            ForEach(viewModel.asteroids) { asteroid in
+                                NavigationLink(destination: AsteroidDetailView(asteroid: asteroid)) {
+                                    AsteroidRowView(asteroid: asteroid)
+                                        .padding(.horizontal)
+                                        .transition(.move(edge: .bottom).combined(with: .opacity))
+                                }
                             }
                         }
+                        .padding(.vertical)
                     }
                 }
             }
@@ -37,7 +45,6 @@ struct AsteroidListView: View {
         }
     }
 }
-
 
 #Preview {
     AsteroidListView()
