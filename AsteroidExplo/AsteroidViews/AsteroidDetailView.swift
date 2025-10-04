@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+import SwiftUI
+
 struct AsteroidDetailView: View {
     let asteroid: Asteroid
     
@@ -40,4 +42,3 @@ struct AsteroidDetailView: View {
         .navigationTitle("Details")
     }
 }
-

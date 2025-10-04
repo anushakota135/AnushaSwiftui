@@ -8,17 +8,17 @@
 import SwiftUI
 
 struct AsteroidListView: View {
-    @StateObject private var viewModel = AsteroidViewModel()
-
+    @StateObject private var store = AppStore()
+    
     var body: some View {
         NavigationView {
             Group {
-                if viewModel.isLoading {
+                if store.state.isLoading {
                     ProgressView("Loading Asteroids…")
                         .accessibilityIdentifier("LoadingIndicator")
                         .progressViewStyle(CircularProgressViewStyle(tint: .blue))
                         .scaleEffect(1.5)
-                } else if let error = viewModel.errorMessage {
+                } else if let error = store.state.errorMessage {
                     Text("Error: \(error)")
                         .foregroundColor(.red)
                         .multilineTextAlignment(.center)
@@ -26,7 +26,7 @@ struct AsteroidListView: View {
                 } else {
                     ScrollView {
                         LazyVStack(spacing: 15) {
-                            ForEach(viewModel.asteroids) { asteroid in
+                            ForEach(store.state.asteroids) { asteroid in
                                 NavigationLink(destination: AsteroidDetailView(asteroid: asteroid)) {
                                     AsteroidRowView(asteroid: asteroid)
                                         .padding(.horizontal)
@@ -41,11 +41,7 @@ struct AsteroidListView: View {
             .navigationTitle("Asteroids")
         }
         .task {
-            await viewModel.loadAsteroids()
+            await store.fetchAsteroids()
         }
     }
-}
-
-#Preview {
-    AsteroidListView()
 }

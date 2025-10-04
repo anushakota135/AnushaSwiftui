@@ -13,6 +13,7 @@ func appReducer(state: inout AppState, action: AppAction) {
     switch action {
     case .fetchAsteroids:
         state.isLoading = true
+        state.errorMessage = nil
     case .setAsteroids(let list):
         state.asteroids = list
         state.isLoading = false
